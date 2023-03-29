@@ -2,15 +2,15 @@
 USE AMG;
 
 -- printing the planes that had a specific type of service done on them (for aircrash inverstigations)
+select * from PLANE_SERVICE
 select plane_service.SER_CODE,plane_service.SER_DATE,airplane.MODEL,airplane.REG_NO 
 from PLANE_SERVICE,airplane
-where (PLANE_SERVICE.SER_CODE = 'Tire Replacement-1127-1' OR PLANE_SERVICE.SER_CODE = 'Propeller Balancing-1125-9') and plane_service.PREG_NO=airplane.REG_NO
+where (PLANE_SERVICE.SER_CODE = 'WING INSPECTION-1119-4' OR PLANE_SERVICE.SER_CODE = 'TIRE REPLACEMENT-1127-1') and plane_service.PREG_NO=airplane.REG_NO
 
-
--- printing the employee who worked on the specific serviced plane
+-- printing the employee who worked on the specific serviced plane (for aircraft investigation)
 select plane_service.SER_CODE,airplane.MODEL,airplane.REG_NO ,works_on.SSN,person.NAME
 from PLANE_SERVICE,airplane,works_on,person
-where (( (PLANE_SERVICE.SER_CODE = 'Tire Replacement-1127-1' OR PLANE_SERVICE.SER_CODE = 'Propeller Balancing-1125-9') and  plane_service.PREG_NO=airplane.REG_NO ) and works_on.model=airplane.model) and works_on.SSN=person.SSN;
+where (( (PLANE_SERVICE.SER_CODE = 'WING INSPECTION-1119-4' OR PLANE_SERVICE.SER_CODE = 'TIRE REPLACEMENT-1127-1') and  plane_service.PREG_NO=airplane.REG_NO ) and works_on.model=airplane.model) and works_on.SSN=person.SSN;
 
 -- Find TOP 5 EMPLOYEE WITH MAXIMUM QUALIFICATIONS
 SELECT TOP 5 P.NAME, COUNT(*) AS 'NUMBER OF QUALIFICATIONS'
