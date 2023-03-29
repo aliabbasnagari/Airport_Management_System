@@ -67,5 +67,8 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
   - PART 4:
     - F
     
-    
+ # Airport ERD
 ![Airport ERD](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/AIRPORT.png)
+
+ # Airport Relational Diagram
+![Airport ERD](https://raw.githubusercontent.com/aliabbasnagari/i212503_Assignment_2_DB/main/AIRPORT%20Relational%20Diagram.png)
