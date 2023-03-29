@@ -89,11 +89,11 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q18.png)
   
 - Query 19:
-  - This was also a short query which was achieved by using a single _where_ on _“Airplane”_ and __”Plane_service”__.
+  - This was also a short query which was achieved by using a single _where_ on _“Airplane”_ and __"Plane_service"__.
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q19.png)
   
 - Query 20:
-  - This was the shortest query which was achieved using the _avg_ function on __”Employee”__.
+  - This was the shortest query which was achieved using the _avg_ function on __"Employee"__.
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q20.png)
   
 - Query 21:
@@ -101,7 +101,7 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q21.png)
   
 - Query 22:
-  - We used the _group by_ clause along with _joins_ on _“Person”_  and  _”Flies”_ to answer this query.
+  - We used the _group by_ clause along with _joins_ on _"Person"_  and  _"Flies"_ to answer this query.
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q22.png)
   
   
