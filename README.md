@@ -117,7 +117,7 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
     ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q253.png)
   - PART 4:
     - This query helps us in _Finding number of qualified employees for each type of plane_ and _can be useful for checking which employee has the most skills._
-    ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q254.png)
+    - ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q254.png)
     
     
     
