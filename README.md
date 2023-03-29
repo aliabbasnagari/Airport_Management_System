@@ -33,7 +33,7 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q4.png)
   
 - Query 5:
-  - To find the reg. no. of airplanes that had undergone maintenance last week, we used joins on “Owns” and “Airplane” to find them
+  - To find the reg. no. of airplanes that had undergone maintenance last week, we used joins on “Owns” and “Airplane” to find them.
   ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q5.png)
   
 - Query 6:
@@ -118,5 +118,7 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
   - PART 4:
     - This query helps us in _Finding number of qualified employees for each type of plane_ and _can be useful for checking which employee has the most skills._
     ![QUERY](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/query_screenshots/q254.png)
+    
+    
     
 # END - THANKS 😊
