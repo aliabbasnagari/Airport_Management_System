@@ -66,3 +66,6 @@ __by Adnan Hayat (21I-0578) and Ali Abbas (21I-2503)__
     - F
   - PART 4:
     - F
+    
+    
+![Airport ERD](https://github.com/aliabbasnagari/i212503_Assignment_2_DB/blob/main/AIRPORT.png)
